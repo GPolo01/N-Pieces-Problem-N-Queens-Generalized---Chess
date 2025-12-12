@@ -1,1 +1,1 @@
-# N-Pieces-Problem-N-Queens-Generalized---Chess
+# N-Pieces-Problem-N: Queens-Generalized---Chess
