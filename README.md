@@ -1,4 +1,4 @@
-# N-Pieces-Problem-N: Queens-Generalized---Chess
+# N-Pieces-Problem: N-Queens-Generalized -- Chess
 
 The famous 8 Queens problem, now modified to find every valid non-attacking position for different chess pieces (Pawn, Knight, Bishop, Rook, Queen, King) on an N×N board.
 
@@ -48,110 +48,101 @@ Develop an even broader generalization, allowing the user to choose and mix diff
 Piece       | N   | Solutions        | Time (s) 
 --------------------------------------------------
 
-Pawn       | 1   | 1               | 0.0000
+<details>
+  <summary> Click to see (Pawn)</summary>
 
-Pawn       | 2   | 4               | 0.0000
+| N | Solutions   | Time (s) |
+| :---: | :---: | :---: |
+| 1 |       1     | 0.0000 |
+| 2 |       4     | 0.0000 |
+| 3 |      38     | 0.0000 |
+| 4 |      661    | 0.0000 |
+| 5 |    16286    | 0.0010 |
+| 6 |  527654     | 0.0230 |
+| 7 |  21191208   | 0.8310 |
+| 8 | 1015335608  | 49.1850 |
+| 9 | 56484795166 | 2918.7280 |
+</details>
 
-Pawn       | 3   | 38              | 0.0000
+<details>
+  <summary> Click to see (Rook)</summary>
 
-Pawn       | 4   | 661             | 0.0000
+| N | Solutions | Time (s) |
+| :---: | :---: | :---: |
+| 1 | 1 | 0.0000 |
+| 2 | 2 | 0.0000 |
+| 3 | 6               | 0.0000 |
+| 4 | 24              | 0.0000 |
+| 5 | 120             | 0.0000 |
+| 6 | 720             | 0.0010 |
+| 7 | 5040            | 0.0120 |
+| 8 | 40320           | 0.1690 |
+| 9 | 362880          | 2.5370 |
+</details>
 
-Pawn       | 5   | 16286           | 0.0010
+<details>
+  <summary> Click to see (Knight)</summary>
 
-Pawn       | 6   | 527654          | 0.0230
+| N | Solutions | Time (s) |
+| :---: | :---: | :---: |
+| 1 | 1 | 0.0000 |
+| 2 | 6               | 0.0000
+| 3 | 36              | 0.0000
+| 4 | 412             | 0.0000
+| 5 | 9386            | 0.0010
+| 6 | 257318          | 0.0150
+| 7 | 8891854         | 0.5530
+| 8 | 379978716       | 27.0530
+| 9 | 19206532478     | 1337.5710
+</details>
+    
+<details>
+  <summary> Click to see (Bishop)</summary>
 
-Pawn       | 7   | 21191208        | 0.8310
+| N | Solutions | Time (s) |
+| :---: | :---: | :---: |
+| 1 | 1 | 0.0000 |
+| 2 | 4               | 0.0000
+| 3 | 26              | 0.0000
+| 4 | 260             | 0.0000
+| 5 | 3368            | 0.0000
+| 6 | 53744           | 0.0070
+| 7 | 1022320         | 0.1400
+| 8 | 22522960        | 3.9900
+| 9 | 565532992       | 92.4710
+</details>
+    
+<details>
+  <summary> Click to see (Queen)</summary>
 
-Pawn       | 8   | 1015335608      | 49.1850
+| N | Solutions | Time (s) |
+| :---: | :---: | :---: |
+| 1 | 1 | 0.0000 |
+| 2 | 0 | 0.0000
+| 3 | 0 | 0.0000
+| 4 | 2 | 0.0000
+| 5 | 10| 0.0000
+| 6 | 4 | 0.0000
+| 7 | 40| 0.0020
+| 8 | 92| 0.0200
+| 9 | 352| 0.1800
+</details>
+    
+<details>
+  <summary> Click to see (King)</summary>
 
-Pawn       | 9   | 56484795166     | 2918.7280
+| N | Solutions | Time (s) |
+| :---: | :---: | :---: |
+| 1 | 1 | 0.0000 |
+| 2 | 0               | 0.0000
+| 3 | 8               | 0.0000
+| 4 | 79              | 0.0000
+| 5 | 1974            | 0.0010
+| 6 | 62266           | 0.0050
+| 7 | 2484382         | 0.2450
+| 8 | 119138166       | 11.4040
+| 9 | 6655170642      | 605.2730
+</details>
 
-Rook       | 1   | 1               | 0.0000
 
-Rook       | 2   | 2               | 0.0000
 
-Rook       | 3   | 6               | 0.0000
-
-Rook       | 4   | 24              | 0.0000
-
-Rook       | 5   | 120             | 0.0000
-
-Rook       | 6   | 720             | 0.0010
-
-Rook       | 7   | 5040            | 0.0120
-
-Rook       | 8   | 40320           | 0.1690
-
-Rook       | 9   | 362880          | 2.5370
-
-Knight     | 1   | 1               | 0.0000
-
-Knight     | 2   | 6               | 0.0000
-
-Knight     | 3   | 36              | 0.0000
-
-Knight     | 4   | 412             | 0.0000
-
-Knight     | 5   | 9386            | 0.0010
-
-Knight     | 6   | 257318          | 0.0150
-
-Knight     | 7   | 8891854         | 0.5530
-
-Knight     | 8   | 379978716       | 27.0530
-
-Knight     | 9   | 19206532478     | 1337.5710
-
-Bishop     | 1   | 1               | 0.0000
-
-Bishop     | 2   | 4               | 0.0000
-
-Bishop     | 3   | 26              | 0.0000
-
-Bishop     | 4   | 260             | 0.0000
-
-Bishop     | 5   | 3368            | 0.0000
-
-Bishop     | 6   | 53744           | 0.0070
-
-Bishop     | 7   | 1022320         | 0.1400
-
-Bishop     | 8   | 22522960        | 3.9900
-
-Bishop     | 9   | 565532992       | 92.4710
-
-Queen      | 1   | 1               | 0.0000
-
-Queen      | 2   | 0               | 0.0000
-
-Queen      | 3   | 0               | 0.0000
-
-Queen      | 4   | 2               | 0.0000
-
-Queen      | 5   | 10              | 0.0000
-
-Queen      | 6   | 4               | 0.0000
-
-Queen      | 7   | 40              | 0.0020
-
-Queen      | 8   | 92              | 0.0200
-
-Queen      | 9   | 352             | 0.1800
-
-King       | 1   | 1               | 0.0000
-
-King       | 2   | 0               | 0.0000
-
-King       | 3   | 8               | 0.0000
-
-King       | 4   | 79              | 0.0000
-
-King       | 5   | 1974            | 0.0010
-
-King       | 6   | 62266           | 0.0050
-
-King       | 7   | 2484382         | 0.2450
-
-King       | 8   | 119138166       | 11.4040
-
-King       | 9   | 6655170642      | 605.2730
