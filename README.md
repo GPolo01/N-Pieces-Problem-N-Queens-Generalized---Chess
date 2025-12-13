@@ -1,36 +1,42 @@
 # N-Pieces-Problem-N: Queens-Generalized---Chess
 
-The famous problem of 8 Queens now modified to find each valid position for each piece (Paw, Knight, Bishop, Rock, Queen, King).
+The famous 8 Queens problem, now modified to find every valid non-attacking position for different chess pieces (Pawn, Knight, Bishop, Rook, Queen, King) on an N×N board.
 
-Funcionalidades
+Below is a graph demonstrating the relationship between the number of solutions and the time required to find them on an N×N board:
 
-    Multipeças: Suporte para 6 tipos de peças com regras de movimento distintas.
+Features
 
-    Backtracking Otimizado: Utiliza recursão com poda de árvore eficiente.
+    Multi-Piece Support: Supports 6 types of chess pieces with distinct movement rules.
 
-    Memory-Efficient: Implementa validação baseada em vetor de coordenadas (complexidade O(k)) em vez de verificação matricial completa (complexidade O(N2)).
+    Optimized Backtracking: Utilizes recursion with efficient tree pruning to skip invalid paths early.
 
-    Observação para ser mais rápido há a opção para desativar a impressão visual dos tabuleiros, focando apenas na contagem e performance para inputs grandes (N > 10).
+    Memory-Efficient: Implements validation based on coordinate vectors (O(k) complexity) instead of full matrix verification (O(N2) complexity).
 
-Como Compilar e Rodar
-Pré-requisitos
+    Performance Note: To speed up execution, there is an option to disable the visual printing of boards. This focuses solely on counting solutions and performance, which is recommended for large inputs (N>10).
+    
+How to Compile and Run
 
-    Compilador GCC
+Prerequisites
 
-Compilação
-Bash
-gcc Xadrez.c -o xadrez
+    GCC compiler
 
-Execução
-
-O programa solicitará interativamente:
-
-    Tamanho do tabuleiro (N).
-
-    Tipo da peça (1-Peão, 2-Torre, 3-Cavalo, 4-Bispo, 5-Rainha, 6-Rei).
-
-    Modo de visualização (1=Desenhar tabuleiros, 0=Apenas contagem).
-
+Compilation
 Bash
 
-./xadrez
+gcc Chess.c -o chess
+
+Execuction
+
+./chess
+
+The program will interactively ask for:
+
+    Board size (N).
+
+    Piece type (1-Pawn, 2-Rook, 3-Knight, 4-Bishop, 5-Queen, 6-King).
+
+    Visualization mode (1 = Draw boards, 0 = Count only).
+
+Future Work
+
+    Develop an even broader generalization, allowing the user to choose and mix different types of pieces on the same board simultaneously.
