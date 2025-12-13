@@ -4,7 +4,8 @@ The famous 8 Queens problem, now modified to find every valid non-attacking posi
 
 Below is a graph demonstrating the relationship between the number of solutions and the time required to find them on an N×N board:
 
-<img width="1262" height="786" alt="image" src="https://github.com/user-attachments/assets/9aeb7ce4-7eff-4a8a-9124-e07aea718fdc" />
+<img width="1233" height="776" alt="image" src="https://github.com/user-attachments/assets/f99fe9cd-0a21-47a8-a2ef-02f651768e35" />
+
 
 For more details, see the tables in the end.
 
