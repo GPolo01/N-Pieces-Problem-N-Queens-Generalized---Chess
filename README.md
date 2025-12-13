@@ -39,4 +39,4 @@ The program will interactively ask for:
 
 Future Work
 
-    Develop an even broader generalization, allowing the user to choose and mix different types of pieces on the same board simultaneously.
+Develop an even broader generalization, allowing the user to choose and mix different types of pieces on the same board simultaneously.
